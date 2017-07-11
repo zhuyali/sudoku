@@ -1,0 +1,288 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MFCTest.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MFCTest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MFCTest"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MFCTest 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2016",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MFCTEST_DIALOG DIALOGEX 0, 0, 251, 199
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MFCTest"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "求解数独",IDSolve,194,6,50,14
+    PUSHBUTTON      "生成数独",IDProduce,194,23,50,14
+    EDITTEXT        a11,7,6,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a51,7,89,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a61,7,110,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a71,7,131,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a81,7,150,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a91,7,172,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a41,7,67,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a21,7,25,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a31,7,45,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a12,27,6,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a52,27,89,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a62,27,110,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a72,27,131,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a82,27,150,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a92,27,172,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a42,27,67,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a22,27,25,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a32,27,45,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a13,47,6,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a53,47,89,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a63,47,110,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a73,47,131,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a83,47,150,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a93,47,172,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a43,47,67,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a23,47,25,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a33,47,45,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a14,68,6,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a54,68,89,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a64,68,110,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a74,68,131,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a84,68,150,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a94,68,172,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a44,68,67,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a24,68,25,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a34,68,45,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a15,87,6,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a55,87,89,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a65,87,110,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a75,87,131,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a85,87,150,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a95,87,172,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a45,87,67,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a25,87,25,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a35,87,45,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a16,107,6,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a56,107,89,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a66,107,110,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a76,107,131,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a86,107,150,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a96,107,172,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a46,107,67,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a26,107,25,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a36,107,45,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a17,127,6,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a57,127,89,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a67,127,110,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a77,127,131,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a87,127,150,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a97,127,172,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a47,127,67,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a27,127,25,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a37,127,45,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a18,147,6,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a58,147,89,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a68,147,110,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a78,147,131,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a88,147,150,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a98,147,172,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a48,147,67,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a28,147,25,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a38,147,45,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a19,168,6,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a59,168,89,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a69,168,110,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a79,168,131,21,19,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a89,168,150,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a99,168,172,21,21,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a49,168,67,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a29,168,25,21,22,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        a39,168,45,21,22,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "退出",IDC_BUTTON1,194,60,50,14
+    PUSHBUTTON      "重置",IDReset,194,41,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MFCTest Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MFCTest\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2016\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MFCTest.EXE\0"
+            VALUE "ProductName", "MFCTest 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MFCTEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 192
+        HORZGUIDE, 98
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 MFCTest(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MFCTest.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
